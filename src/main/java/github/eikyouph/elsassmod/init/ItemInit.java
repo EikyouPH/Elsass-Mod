@@ -16,5 +16,7 @@ public class ItemInit {
         return Registry.register(Registries.ITEM, ElsassMod.id(name), item);
     }
 
+
+
     public static void load() {}
 }

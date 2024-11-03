@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "elsassmod:block/salt_block"
+    }
+  }
+}

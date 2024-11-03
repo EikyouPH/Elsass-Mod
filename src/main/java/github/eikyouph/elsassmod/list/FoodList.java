@@ -10,6 +10,6 @@ public class FoodList {
             .nutrition(5)
             .saturationModifier(0.4F)
             .alwaysEdible()
-            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20 * 30, 1), 0)
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20 * 30, 0), 0.75F)
             .build();
 }

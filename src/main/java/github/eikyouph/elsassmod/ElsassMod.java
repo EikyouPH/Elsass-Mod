@@ -1,5 +1,6 @@
 package github.eikyouph.elsassmod;
 
+import github.eikyouph.elsassmod.init.BlockInit;
 import github.eikyouph.elsassmod.init.ItemInit;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +17,7 @@ public class ElsassMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Loading...");
 		ItemInit.load();
+		BlockInit.load();
 	}
 
 	public static Identifier id(String path) {
