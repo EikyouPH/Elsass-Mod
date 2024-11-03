@@ -1,7 +1,14 @@
-// 1.21	2024-11-03T23:10:41.6262548	Elsass Mod/Model Definitions
+// 1.21	2024-11-04T01:15:20.2520919	Elsass Mod/Model Definitions
 cd1c9c20fd7d245e16e1a739d82739e84117a659 assets\elsassmod\models\block\salt_block.json
 6834c355ad616a06c747d5f03090e94fa6471676 assets\elsassmod\models\item\farine.json
-e2854df8f6d4d20884967ef4bbfe08f2a2501842 assets\elsassmod\blockstates\salt_block.json
 57976519896ed78652ae36518b0f2e5555910d2f assets\elsassmod\models\item\salt_block.json
-58fd30d9c884010c4283dc62b4089e3487cb8fe9 assets\elsassmod\models\item\fromage_brie.json
+0f1c27c5f27814098b0ec1aaf42192f1dbea4269 assets\elsassmod\models\item\deepslate_msg_ore.json
 cc286e0c25e48de7e9531cf5d13338283678f581 assets\elsassmod\models\item\pomme_de_terre_rouge.json
+fcb5f0f138b03ccb234a6e90e6d41a3ef01b20d1 assets\elsassmod\blockstates\deepslate_msg_ore.json
+0edec8444f625a532f64c59f033db2d912757dc1 assets\elsassmod\blockstates\msg_ore.json
+a57f6aea97801928dfebdb26932b3c8628105aa4 assets\elsassmod\models\item\msg_ore.json
+d08e46ec1dbe03aa73e464dcb47c7730269d3a75 assets\elsassmod\models\block\deepslate_msg_ore.json
+e2854df8f6d4d20884967ef4bbfe08f2a2501842 assets\elsassmod\blockstates\salt_block.json
+58fd30d9c884010c4283dc62b4089e3487cb8fe9 assets\elsassmod\models\item\fromage_brie.json
+7a2c72a6643e6bdf32673f6a1c6f992ff1c9a24a assets\elsassmod\models\block\msg_ore.json
+9b2ce1ff970930dababde334612c7d09cef8f05f assets\elsassmod\models\item\poudre_msg.json

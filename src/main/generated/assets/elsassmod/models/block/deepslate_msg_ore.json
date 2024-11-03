@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "elsassmod:block/deepslate_msg_ore"
+  }
+}

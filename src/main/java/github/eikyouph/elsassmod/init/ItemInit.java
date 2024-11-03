@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 public class ItemInit {
     public static final Item FARINE = register("farine", new Item(new Item.Settings()));
     public static final Item POMME_DE_TERRE_ROUGE = register("pomme_de_terre_rouge", new Item(new Item.Settings()));
+    public static final Item POUDRE_MSG = register("poudre_msg", new Item(new Item.Settings()));
     public static final Item FROMAGE_BRIE = register("fromage_brie",
             new Item(new Item.Settings().food(FoodList.FROMAGE_BRIE).maxCount(16)));
 

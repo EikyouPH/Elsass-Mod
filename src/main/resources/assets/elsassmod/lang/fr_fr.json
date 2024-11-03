@@ -2,6 +2,9 @@
   "item.elsassmod.farine": "Farine",
   "item.elsassmod.pomme_de_terre_rouge": "Pomme de terre rouge",
   "item.elsassmod.fromage_brie": "Brie",
+  "item.elsassmod.poudre_msg": "Poudre de MSG",
   "block.elsassmod.salt_block": "Bloc de sel",
+  "block.elsassmod.msg_ore": "Minerai de MSG",
+  "block.elsassmod.deepslate_msg_ore": "Minerai de MSG des abîmes",
   "itemGroup.elsassmod.elsass_group": "Elsass Mod"
 }

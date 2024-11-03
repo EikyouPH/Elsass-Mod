@@ -17,6 +17,8 @@ public class ElsassModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.SALT_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.MSG_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.DEEPSLATE_MSG_ORE);
     }
 
     @Override
@@ -24,6 +26,7 @@ public class ElsassModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemInit.FROMAGE_BRIE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.FARINE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.POMME_DE_TERRE_ROUGE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.POUDRE_MSG, Models.GENERATED);
 
     }
 }

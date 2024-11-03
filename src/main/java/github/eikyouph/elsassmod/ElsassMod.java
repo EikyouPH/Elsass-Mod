@@ -3,6 +3,7 @@ package github.eikyouph.elsassmod;
 import github.eikyouph.elsassmod.init.BlockInit;
 import github.eikyouph.elsassmod.init.ItemGroupInit;
 import github.eikyouph.elsassmod.init.ItemInit;
+import github.eikyouph.elsassmod.init.worldgen.BiomeModificationInit;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -23,6 +24,7 @@ public class ElsassMod implements ModInitializer {
 		ItemInit.load();
 		BlockInit.load();
 		ItemGroupInit.load();
+		BiomeModificationInit.load();
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
 			entries.addAfter(Items.PUMPKIN_PIE, ItemInit.FROMAGE_BRIE);

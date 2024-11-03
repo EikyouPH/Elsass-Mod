@@ -13,6 +13,14 @@ public class BlockInit {
             .strength(0.4F)
             .requiresTool()));
 
+    public static final Block MSG_ORE = registerWithItem("msg_ore", new Block(AbstractBlock.Settings.create()
+            .strength(0.5F)
+            .requiresTool()));
+
+    public static final Block DEEPSLATE_MSG_ORE = registerWithItem("deepslate_msg_ore", new Block(AbstractBlock.Settings.create()
+            .strength(0.6F)
+            .requiresTool()));
+
     public static <T extends Block> T register(String name, T block){
         return Registry.register(Registries.BLOCK, ElsassMod.id(name), block);
     }

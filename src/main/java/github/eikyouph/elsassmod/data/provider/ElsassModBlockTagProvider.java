@@ -22,5 +22,17 @@ public class ElsassModBlockTagProvider extends FabricTagProvider.BlockTagProvide
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(BlockInit.SALT_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(BlockInit.MSG_ORE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(BlockInit.MSG_ORE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(BlockInit.DEEPSLATE_MSG_ORE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(BlockInit.DEEPSLATE_MSG_ORE);
     }
 }
