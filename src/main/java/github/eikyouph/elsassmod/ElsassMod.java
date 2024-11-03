@@ -8,9 +8,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ElsassMod implements ModInitializer {
+	public static final Logger LOGGER = LoggerFactory.getLogger("Elsass Mod");
 	public static final String MOD_ID = "elsassmod";
 
-	public static final Logger LOGGER = LoggerFactory.getLogger("Elsass Mod");
 
 	@Override
 	public void onInitialize() {
@@ -18,5 +18,7 @@ public class ElsassMod implements ModInitializer {
 		ItemInit.load();
 	}
 
-	public static Identifier id(String path) { return Identifier.of(MOD_ID, path); }
+	public static Identifier id(String path) {
+		return Identifier.of(MOD_ID, path);
+	}
 }

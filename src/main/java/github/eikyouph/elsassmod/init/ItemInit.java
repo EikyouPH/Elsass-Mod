@@ -1,7 +1,7 @@
 package github.eikyouph.elsassmod.init;
 
 import github.eikyouph.elsassmod.ElsassMod;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
