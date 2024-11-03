@@ -3,9 +3,9 @@
 	"id": "elsassmod",
 	"version": "${version}",
 	"name": "Elsass Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Bring Elsass's Culture to Minecraft.",
 	"authors": [
-		"Me!"
+		"EikyouPix and Adnaric"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
