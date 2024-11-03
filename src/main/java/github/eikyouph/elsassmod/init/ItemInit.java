@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 
 public class ItemInit {
     public static final Item FARINE = register("farine", new Item(new Item.Settings()));
+    public static final Item POMME_DE_TERRE_ROUGE = register("pomme_de_terre_rouge", new Item(new Item.Settings()));
 
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, ElsassMod.id(name), item);
