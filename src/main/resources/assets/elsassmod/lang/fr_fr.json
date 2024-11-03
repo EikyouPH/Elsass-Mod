@@ -2,5 +2,6 @@
   "item.elsassmod.farine": "Farine",
   "item.elsassmod.pomme_de_terre_rouge": "Pomme de terre rouge",
   "item.elsassmod.fromage_brie": "Brie",
-  "block.elsassmod.salt_block": "Bloc de sel"
+  "block.elsassmod.salt_block": "Bloc de sel",
+  "itemGroup.elsassmod.elsass_group": "Elsass Mod"
 }
