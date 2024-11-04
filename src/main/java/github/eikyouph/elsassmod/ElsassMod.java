@@ -29,6 +29,11 @@ public class ElsassMod implements ModInitializer {
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
 			entries.addAfter(Items.PUMPKIN_PIE, ItemInit.BRIE_CHEESE);
 		});
+
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+			entries.addAfter(Items.SUGAR, ItemInit.MSG_POWDER);
+			entries.addAfter(ItemInit.MSG_POWDER, ItemInit.CHOCOLATE_POWDER);
+		});
 	}
 
 	public static Identifier id(String path) {
