@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "elsassmod:item/pomme_de_terre_rouge"
+    "layer0": "elsassmod:item/cinnamon_seed"
   }
 }

@@ -13,7 +13,7 @@ public class ItemGroupInit {
     private static final Text ELSASS_TITLE = Text.translatable("itemGroup." + ElsassMod.MOD_ID + ".elsass_group");
     public static final ItemGroup ELSASS_GROUP = register("elsass_group", FabricItemGroup.builder()
             .displayName(ELSASS_TITLE)
-            .icon(ItemInit.FROMAGE_BRIE::getDefaultStack)
+            .icon(ItemInit.BRIE_CHEESE::getDefaultStack)
             .entries((displayContext, entries) -> Registries.ITEM.getIds()
                     .stream()
                     .filter(key -> key.getNamespace().equals(ElsassMod.MOD_ID))

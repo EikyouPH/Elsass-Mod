@@ -6,7 +6,7 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
 public class FoodList {
-    public  static final FoodComponent FROMAGE_BRIE = new FoodComponent.Builder()
+    public  static final FoodComponent BRIE_CHEESE = new FoodComponent.Builder()
             .nutrition(5)
             .saturationModifier(0.4F)
             .alwaysEdible()

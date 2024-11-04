@@ -1,5 +1,5 @@
-// 1.21	2024-11-04T10:18:07.4877077	Elsass Mod/Recipes
-06157448cbb52c238d625be2607a450fa1b6e42f data\elsassmod\recipe\farine.json
-c396a68d0b8ede9d77b608732a0722bfe0ada812 data\elsassmod\advancement\recipes\building_blocks\salt_block.json
-d05ab171843b85b186d27ea50a5555b9ca87e18d data\elsassmod\recipe\salt_block.json
-6c4cdde33b00bd626783d6184fa61d0f70676de5 data\elsassmod\advancement\recipes\food\farine.json
+// 1.21	2024-11-04T14:40:38.1770662	Elsass Mod/Recipes
+26b44cd5bdf49026b836c9734306369f087704a7 data\elsassmod\advancement\recipes\food\flour.json
+521cc846f253b00224cc90cf25d746139e773bcd data\elsassmod\advancement\recipes\building_blocks\salt_block.json
+a7071744471541388f85693ff6cdd739d9432770 data\elsassmod\recipe\salt_block.json
+d6a2094630f44144fd6435e3c231bbe757ad5a34 data\elsassmod\recipe\flour.json

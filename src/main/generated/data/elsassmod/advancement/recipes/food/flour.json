@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_farine": {
+    "has_flour": {
       "conditions": {
         "items": [
           {
-            "items": "elsassmod:farine"
+            "items": "elsassmod:flour"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "elsassmod:farine"
+        "recipe": "elsassmod:flour"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -31,13 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_farine",
+      "has_flour",
       "has_wheat"
     ]
   ],
   "rewards": {
     "recipes": [
-      "elsassmod:farine"
+      "elsassmod:flour"
     ]
   }
 }

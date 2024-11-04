@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "elsassmod:poudre_msg"
+              "name": "elsassmod:msg_powder"
             }
           ]
         }

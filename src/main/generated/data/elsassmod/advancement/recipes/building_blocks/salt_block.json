@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_poudre_msg": {
+    "has_msg_powder": {
       "conditions": {
         "items": [
           {
-            "items": "elsassmod:poudre_msg"
+            "items": "elsassmod:msg_powder"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_poudre_msg"
+      "has_msg_powder"
     ]
   ],
   "rewards": {

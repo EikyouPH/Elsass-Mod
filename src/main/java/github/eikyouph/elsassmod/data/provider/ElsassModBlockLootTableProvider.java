@@ -28,8 +28,8 @@ public class ElsassModBlockLootTableProvider extends FabricBlockLootTableProvide
     @Override
     public void generate() {
         addDrop(BlockInit.SALT_BLOCK);
-        addDrop(BlockInit.MSG_ORE, copperLikeOreDrops(BlockInit.MSG_ORE, ItemInit.POUDRE_MSG));
-        addDrop(BlockInit.DEEPSLATE_MSG_ORE, copperLikeOreDrops(BlockInit.DEEPSLATE_MSG_ORE, ItemInit.POUDRE_MSG));
+        addDrop(BlockInit.MSG_ORE, copperLikeOreDrops(BlockInit.MSG_ORE, ItemInit.MSG_POWDER));
+        addDrop(BlockInit.DEEPSLATE_MSG_ORE, copperLikeOreDrops(BlockInit.DEEPSLATE_MSG_ORE, ItemInit.MSG_POWDER));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

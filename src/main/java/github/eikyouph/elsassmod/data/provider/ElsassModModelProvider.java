@@ -23,10 +23,23 @@ public class ElsassModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ItemInit.FROMAGE_BRIE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.FARINE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.POMME_DE_TERRE_ROUGE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.POUDRE_MSG, Models.GENERATED);
-
+        itemModelGenerator.register(ItemInit.BRIE_CHEESE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.FLOUR, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_POTATO, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.MSG_POWDER, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.ONION_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.CABBAGE_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.GARLIC_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.PEPPER_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.TOMATO_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.HORSERADISH_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.MUSTARD_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.WHITE_RAISIN_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_RAISIN_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.NUT, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.HAZELNUT, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.ANISE_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.CINNAMON_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.CHOCOLATE_POWDER, Models.GENERATED);
     }
 }

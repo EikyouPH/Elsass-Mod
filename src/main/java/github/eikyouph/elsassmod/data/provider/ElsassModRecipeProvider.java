@@ -23,15 +23,15 @@ public class ElsassModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, BlockInit.SALT_BLOCK)
-                .input('E', ItemInit.POUDRE_MSG)
+                .input('E', ItemInit.MSG_POWDER)
                 .pattern("EE")
                 .pattern("EE")
-                .criterion(hasItem(ItemInit.POUDRE_MSG), conditionsFromItem(ItemInit.POUDRE_MSG))
+                .criterion(hasItem(ItemInit.MSG_POWDER), conditionsFromItem(ItemInit.MSG_POWDER))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ItemInit.FARINE, 3)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ItemInit.FLOUR, 3)
                 .input(Items.WHEAT)
-                .criterion(hasItem(ItemInit.FARINE), conditionsFromItem(ItemInit.FARINE))
+                .criterion(hasItem(ItemInit.FLOUR), conditionsFromItem(ItemInit.FLOUR))
                 .criterion(hasItem(Items.WHEAT), conditionsFromItem(Items.WHEAT))
                 .offerTo(exporter);
     }

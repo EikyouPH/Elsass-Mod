@@ -27,7 +27,7 @@ public class ElsassMod implements ModInitializer {
 		BiomeModificationInit.load();
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-			entries.addAfter(Items.PUMPKIN_PIE, ItemInit.FROMAGE_BRIE);
+			entries.addAfter(Items.PUMPKIN_PIE, ItemInit.BRIE_CHEESE);
 		});
 	}
 
