@@ -4,6 +4,7 @@ import github.eikyouph.elsassmod.data.generator.ElsassWorldGenerator;
 import github.eikyouph.elsassmod.data.provider.ElsassModBlockLootTableProvider;
 import github.eikyouph.elsassmod.data.provider.ElsassModBlockTagProvider;
 import github.eikyouph.elsassmod.data.provider.ElsassModModelProvider;
+import github.eikyouph.elsassmod.data.provider.ElsassModRecipeProvider;
 import github.eikyouph.elsassmod.init.worldgen.ConfiguredFeatureInit;
 import github.eikyouph.elsassmod.init.worldgen.PlacedFeatureInit;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -20,6 +21,7 @@ public class ElsassModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ElsassModBlockLootTableProvider::new);
 		pack.addProvider(ElsassModBlockTagProvider::new);
 		pack.addProvider(ElsassWorldGenerator::new);
+		pack.addProvider(ElsassModRecipeProvider::new);
 
 	}
 
