@@ -6,7 +6,7 @@
       "item": "minecraft:iron_ingot"
     },
     "s": {
-      "item": "minecraft:stick"
+      "tag": "c:rods/wooden"
     }
   },
   "pattern": [

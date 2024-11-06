@@ -1,11 +1,81 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_acacia_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_birch_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cherry_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dark_oak_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jungle_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_oak_slab": {
       "conditions": {
         "items": [
           {
             "items": "minecraft:oak_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_spruce_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_slab"
           }
         ]
       },
@@ -21,7 +91,14 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_oak_slab"
+      "has_oak_slab",
+      "has_dark_oak_slab",
+      "has_spruce_slab",
+      "has_birch_slab",
+      "has_jungle_slab",
+      "has_cherry_slab",
+      "has_mangrove_slab",
+      "has_acacia_slab"
     ]
   ],
   "rewards": {
