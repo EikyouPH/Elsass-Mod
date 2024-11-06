@@ -50,21 +50,27 @@ public class ItemInit {
     public static final Item BEEF_CARCASS = register("beef_carcass", new Item(new Item.Settings()));
     public static final Item SHEEP_CARCASS = register("sheep_carcass", new Item(new Item.Settings()));
     public static final Item SUNFLOWER_OIL = register("sunflower_oil", new Item(new Item.Settings()));
-    public static final Item WHITE_WINE = register("white_wine", new Item(new Item.Settings()));
-    public static final Item RED_WINE = register("red_wine", new Item(new Item.Settings()));
+    public static final Item WHITE_WINE = register("white_wine", new Item(new Item.Settings()
+            .food(FoodList.WHITE_WINE).maxCount(1)));
+    public static final Item RED_WINE = register("red_wine", new Item(new Item.Settings()
+            .food(FoodList.RED_WINE).maxCount(1)));
     public static final Item VINEGAR = register("vinegar", new Item(new Item.Settings()));
     public static final Item SAUSAGE = register("sausage", new Item(new Item.Settings()));
     public static final Item MINCED_MEAT = register("minced_meat", new Item(new Item.Settings()));
-    public static final Item BAGUETTE = register("baguette", new Item(new Item.Settings()));
+    public static final Item BAGUETTE = register("baguette", new Item(new Item.Settings()
+            .food(FoodList.BAGUETTE)));
     public static final Item BREAD_PASTE = register("bread_paste", new Item(new Item.Settings()));
     public static final Item BIBELESKASE = register("bibeleskase", new Item(new Item.Settings()));
     public static final Item LARDONS = register("lardons", new Item(new Item.Settings()));
     public static final Item KNIFE = register("knife", new Item(new Item.Settings()));
-    public static final Item TARTE_FLAMBEE = register("tarte_flambee", new Item(new Item.Settings()));
+    public static final Item TARTE_FLAMBEE = register("tarte_flambee", new Item(new Item.Settings()
+            .food(FoodList.TARTE_FLAMBEE)));
     public static final Item CUTTING_BOARD = register("cutting_board", new Item(new Item.Settings()));
-    public static final Item JUNIPER_BERRIES = register("juniper_berries", new Item(new Item.Settings()));
+    public static final Item JUNIPER_BERRIES = register("juniper_berries", new Item(new Item.Settings()
+            .food(FoodList.JUNIPER_BERRIES)));
     public static final Item BAECKHOFEN_TERRINE = register("baeckhofen_terrine", new Item(new Item.Settings()));
-    public static final Item BEER = register("beer", new Item(new Item.Settings()));
+    public static final Item BEER = register("beer", new Item(new Item.Settings()
+            .food(FoodList.BEER).maxCount(1)));
     public static final Item CARP_FISH = register("carp_fish", new Item(new Item.Settings()));
     public static final Item TROUT_FISH = register("trout_fish", new Item(new Item.Settings()));
     public static final Item HERRING_FISH = register("herring_fish", new Item(new Item.Settings()));
