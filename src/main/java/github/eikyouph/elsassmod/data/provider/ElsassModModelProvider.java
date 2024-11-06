@@ -59,5 +59,29 @@ public class ElsassModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemInit.CELERY_SEED, Models.GENERATED);
         itemModelGenerator.register(ItemInit.TURNIP_SEED, Models.GENERATED);
         itemModelGenerator.register(ItemInit.LAUREL_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.CREAM, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BUTTER, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.PORK_CARCASS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BEEF_CARCASS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.SHEEP_CARCASS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.SUNFLOWER_OIL, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.WHITE_WINE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_WINE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.VINEGAR, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.SAUSAGE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.MINCED_MEAT, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BAGUETTE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BIBELESKASE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.LARDONS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.KNIFE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BREAD_PASTE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.TARTE_FLAMBEE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.CUTTING_BOARD, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.JUNIPER_BERRIES, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BAECKHOFEN_TERRINE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BEER, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.CARP_FISH, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.TROUT_FISH, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.HERRING_FISH, Models.GENERATED);
     }
 }

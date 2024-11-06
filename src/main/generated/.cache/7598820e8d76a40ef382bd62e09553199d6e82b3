@@ -1,4 +1,4 @@
-// 1.21	2024-11-04T15:31:36.6398937	Elsass Mod/Tags for minecraft:block
+// 1.21	2024-11-06T19:21:19.177948	Elsass Mod/Tags for minecraft:block
 9c81f77ad2aca548c1c5bc794b5e965fed19f077 data\minecraft\tags\block\needs_iron_tool.json
-c1b02db24fdab0e33682edbcebec29f4c3d484ca data\minecraft\tags\block\mineable\pickaxe.json
 ef33811314f62b8ba1dbac444900eeab4cf19e2e data\minecraft\tags\block\needs_stone_tool.json
+c1b02db24fdab0e33682edbcebec29f4c3d484ca data\minecraft\tags\block\mineable\pickaxe.json
