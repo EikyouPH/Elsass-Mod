@@ -36,15 +36,32 @@ public class ElsassModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ItemInit.RED_WINE)
                 .input(Items.GLASS_BOTTLE)
                 .input(ItemInit.RED_GRAPES)
-                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.RED_GRAPES))
-                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.RED_GRAPES))
+                .criterion(hasItem(ItemInit.RED_GRAPES), conditionsFromItem(ItemInit.RED_GRAPES))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ItemInit.WHITE_WINE)
                 .input(Items.GLASS_BOTTLE)
                 .input(ItemInit.WHITE_GRAPES)
-                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.WHITE_GRAPES))
-                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.WHITE_GRAPES))
+                .criterion(hasItem(ItemInit.WHITE_GRAPES), conditionsFromItem(ItemInit.WHITE_GRAPES))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ItemInit.BREAD_PASTE)
+                .input(Items.WATER_BUCKET)
+                .input(ItemInit.FLOUR)
+                .criterion(hasItem(ItemInit.FLOUR), conditionsFromItem(ItemInit.FLOUR))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ItemInit.CUTTING_BOARD)
+                .input(Items.OAK_SLAB)
+                .criterion(hasItem(Items.OAK_SLAB), conditionsFromItem(Items.OAK_SLAB))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ItemInit.KNIFE)
+                .input('s',Items.STICK)
+                .input('i',Items.IRON_INGOT)
+                .pattern(" i")
+                .pattern("s ")
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
     }
 }

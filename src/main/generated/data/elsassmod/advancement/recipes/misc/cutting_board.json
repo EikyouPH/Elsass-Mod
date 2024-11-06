@@ -1,32 +1,32 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "elsassmod:white_wine"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_white_grapes": {
+    "has_oak_slab": {
       "conditions": {
         "items": [
           {
-            "items": "elsassmod:white_grapes"
+            "items": "minecraft:oak_slab"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elsassmod:cutting_board"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_white_grapes"
+      "has_oak_slab"
     ]
   ],
   "rewards": {
     "recipes": [
-      "elsassmod:white_wine"
+      "elsassmod:cutting_board"
     ]
   }
 }

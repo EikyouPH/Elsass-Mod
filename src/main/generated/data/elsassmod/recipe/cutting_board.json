@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_slab"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "elsassmod:cutting_board"
+  }
+}

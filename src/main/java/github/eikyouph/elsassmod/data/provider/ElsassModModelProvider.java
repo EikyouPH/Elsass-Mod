@@ -75,7 +75,7 @@ public class ElsassModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemInit.BAGUETTE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.BIBELESKASE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.LARDONS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.KNIFE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ItemInit.BREAD_PASTE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.TARTE_FLAMBEE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.CUTTING_BOARD, Models.GENERATED);
