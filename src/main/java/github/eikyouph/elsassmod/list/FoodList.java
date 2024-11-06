@@ -5,10 +5,13 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
 public class FoodList {
+    private static final int sec = 20;
+    private static final int min = 60 * sec;
+
     public  static final FoodComponent BRIE_CHEESE = new FoodComponent.Builder()
             .nutrition(5)
             .saturationModifier(0.4F)
-            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20 * 30, 0), 0.2F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 30 * sec, 0), 0.2F)
             .build();
 
     public  static final FoodComponent BAGUETTE = new FoodComponent.Builder()
@@ -20,27 +23,27 @@ public class FoodList {
             .nutrition(2)
             .saturationModifier(0.1F)
             .alwaysEdible()
-            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 20 * 30, 0), 0.25F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 30 * sec, 0), 0.25F)
             .build();
 
     public  static final FoodComponent RED_WINE = new FoodComponent.Builder()
             .nutrition(2)
             .saturationModifier(0.1F)
             .alwaysEdible()
-            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 20 * 30, 0), 0.25F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 30 * sec, 0), 0.25F)
             .build();
 
     public  static final FoodComponent BEER = new FoodComponent.Builder()
             .nutrition(2)
             .saturationModifier(0.1F)
             .alwaysEdible()
-            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 20 * 30, 0), 0.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 30 * sec, 0), 0.1F)
             .build();
 
     public  static final FoodComponent TARTE_FLAMBEE = new FoodComponent.Builder()
             .nutrition(8)
             .saturationModifier(0.8F)
-            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20 * 30, 1), 0.3F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 30 * sec, 1), 0.3F)
             .build();
 
     public  static final FoodComponent JUNIPER_BERRIES = new FoodComponent.Builder()

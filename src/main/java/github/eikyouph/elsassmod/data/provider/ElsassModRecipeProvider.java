@@ -7,9 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -33,6 +31,20 @@ public class ElsassModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.WHEAT)
                 .criterion(hasItem(ItemInit.FLOUR), conditionsFromItem(ItemInit.FLOUR))
                 .criterion(hasItem(Items.WHEAT), conditionsFromItem(Items.WHEAT))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ItemInit.RED_WINE)
+                .input(Items.GLASS_BOTTLE)
+                .input(ItemInit.RED_GRAPES)
+                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.RED_GRAPES))
+                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.RED_GRAPES))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ItemInit.WHITE_WINE)
+                .input(Items.GLASS_BOTTLE)
+                .input(ItemInit.WHITE_GRAPES)
+                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.WHITE_GRAPES))
+                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ItemInit.WHITE_GRAPES))
                 .offerTo(exporter);
     }
 }

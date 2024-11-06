@@ -19,8 +19,10 @@ public class ItemInit {
     public static final Item TOMATO_SEED = register("tomato_seed", new Item(new Item.Settings()));
     public static final Item HORSERADISH_SEED = register("horseradish_seed", new Item(new Item.Settings()));
     public static final Item MUSTARD_SEED = register("mustard_seed", new Item(new Item.Settings()));
-    public static final Item WHITE_RAISIN_SEED = register("white_raisin_seed", new Item(new Item.Settings()));
-    public static final Item RED_RAISIN_SEED = register("red_raisin_seed", new Item(new Item.Settings()));
+    public static final Item WHITE_GRAPES_SEED = register("white_grapes_seed", new Item(new Item.Settings()));
+    public static final Item WHITE_GRAPES = register("white_grapes", new Item(new Item.Settings()));
+    public static final Item RED_GRAPES_SEED = register("red_grapes_seed", new Item(new Item.Settings()));
+    public static final Item RED_GRAPES = register("red_grapes", new Item(new Item.Settings()));
     public static final Item NUT = register("nut", new Item(new Item.Settings()));
     public static final Item HAZELNUT = register("hazelnut", new Item(new Item.Settings()));
     public static final Item ANISE_SEED = register("anise_seed", new Item(new Item.Settings()));

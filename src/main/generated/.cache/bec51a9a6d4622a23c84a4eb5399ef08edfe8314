@@ -1,5 +1,9 @@
-// 1.21	2024-11-06T19:36:35.7361202	Elsass Mod/Recipes
+// 1.21	2024-11-06T20:19:51.1708667	Elsass Mod/Recipes
 26b44cd5bdf49026b836c9734306369f087704a7 data\elsassmod\advancement\recipes\food\flour.json
 521cc846f253b00224cc90cf25d746139e773bcd data\elsassmod\advancement\recipes\building_blocks\salt_block.json
 a7071744471541388f85693ff6cdd739d9432770 data\elsassmod\recipe\salt_block.json
+a35c95c7fb83d78644a0b17199bc13aa38415bf1 data\elsassmod\recipe\red_wine.json
+479dac3c4c3a3c17a2f3b0c765465f771c663eb3 data\elsassmod\advancement\recipes\food\red_wine.json
 d6a2094630f44144fd6435e3c231bbe757ad5a34 data\elsassmod\recipe\flour.json
+e2f3d0265936b8244688de7e117c9ed5dae8e012 data\elsassmod\advancement\recipes\food\white_wine.json
+ca415ccdc47a6ef9b3b0f7cada9867e12673a6ec data\elsassmod\recipe\white_wine.json

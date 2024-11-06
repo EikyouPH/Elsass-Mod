@@ -34,8 +34,10 @@ public class ElsassModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemInit.TOMATO_SEED, Models.GENERATED);
         itemModelGenerator.register(ItemInit.HORSERADISH_SEED, Models.GENERATED);
         itemModelGenerator.register(ItemInit.MUSTARD_SEED, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.WHITE_RAISIN_SEED, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.RED_RAISIN_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.WHITE_GRAPES_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.WHITE_GRAPES, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_GRAPES_SEED, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_GRAPES, Models.GENERATED);
         itemModelGenerator.register(ItemInit.NUT, Models.GENERATED);
         itemModelGenerator.register(ItemInit.HAZELNUT, Models.GENERATED);
         itemModelGenerator.register(ItemInit.ANISE_SEED, Models.GENERATED);
